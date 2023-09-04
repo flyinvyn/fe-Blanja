@@ -7,7 +7,7 @@
   <p align="center">
     <a href="https://github.com/flyinvyn/be-Blanja"><strong>Explore the docs »</strong></a>
     <br />
-    <!-- <a href="https://blanja-fe-khaki.vercel.app/">View Demo</a> -->
+    <a href="https://fe-blanja.vercel.app/">View Demo</a>
     ·
     <a href="https://be-blanja-pi.vercel.app/">Api Demo</a>
   </p>
@@ -183,8 +183,8 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Backend`](https://github.com/flyinvyn/be-Blanja)
 
-<!-- :rocket: [`Frontend`](https://github.com/izaazwaskito/Blanja-FE) -->
+:rocket: [`Frontend`](https://github.com/flyinvyn/fe-Blanja)
 
-<!-- :rocket: [`Demo`](https://blanja-fe-khaki.vercel.app/) -->
+:rocket: [`Demo`](https://fe-blanja.vercel.app/)
 
 Project Link: [https://github.com/flyinvyn/fe-Blanja](https://github.com/flyinvyn/fe-Blanja)

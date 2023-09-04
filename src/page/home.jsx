@@ -32,9 +32,9 @@ const Home = () => {
         <CategoryCarousel />
         <h2 className="ml-3 font-weight-bold">New</h2>
         <p className="ml-3">You've never seen before!</p>
-        <div className="row">
-          <div className="col-md-3 col-sm-6 mt-5">
-            {loading ? products.map((item, index) => (
+          <div className="row">
+        {loading ? products.map((item, index) => (
+            <div className="col-md-3 col-sm-6 mt-5">
               <Link to={`product/${item.id_product}`} >
                 <div key={index} className="border rounded">
                   <img src={item.image_product} style={{ width: "100%" }} crossOrigin="anonymous" alt='product' />
@@ -48,15 +48,15 @@ const Home = () => {
                   </div>
                 </div>
               </Link>
-            )) : <Spinner animation="border" />}
+            </div>
+        )) : <Spinner animation="border" />}
           </div>
-        </div>
         <section className="mt-5">
           <h2 className="font-weight-bold">Populer</h2>
           <p>Find Clothes that are you tranding recently!</p>
-          <div className="row">
-            <div className="col-md-3 col-sm-6 mt-5">
-              {loading ? products.map((item, index) => (
+            <div className="row">
+          {loading ? products.map((item, index) => (
+              <div className="col-md-3 col-sm-6 mt-5">
                 <Link to={`product/${item.id_product}`} >
                   <div key={index} className="border rounded">
                     <img src={item.image_product} style={{ width: "100%" }} crossOrigin="anonymous" alt='product' />
@@ -70,9 +70,9 @@ const Home = () => {
                     </div>
                   </div>
                 </Link>
-              )) : <Spinner animation="border" />}
+              </div>
+          )) : <Spinner animation="border" />}
             </div>
-          </div>
         </section>
       </div>
     </>
