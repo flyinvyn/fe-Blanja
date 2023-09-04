@@ -6,6 +6,7 @@ import Spinner from 'react-bootstrap/Spinner';
 const Address = () => {
     const [loading, setLoading] = useState(false);
     const [address, setAddress] = useState([]);
+    const id = localStorage.getItem('id')
 
     useEffect(() => {
         getAddress();
@@ -13,7 +14,7 @@ const Address = () => {
 
     const getAddress = async () => {
         try {
-            await axios.get(`${process.env.REACT_APP_BASEURL}/address`)
+            await axios.get(`${process.env.REACT_APP_BASEURL}/address/${id}`)
                 .then((response) => setAddress(response.data.data))
                 setLoading(true)
         } catch (e) {
