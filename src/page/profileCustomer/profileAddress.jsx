@@ -1,5 +1,6 @@
 import RequireLogin from "../../auth/requireNavbar";
 import SidebarCustomer from "../../components/sideBarSeller/sidebarCustomer";
+import ModalCreateAddress from "../../modal/modalCreateAddress";
 import AddressContent from "./content/address";
 
 
@@ -14,7 +15,7 @@ const CustomerAddress = () => {
             <AddressContent />
           </div>
         </section>
-        {/* <ModalCreateAddress /> */}
+        <ModalCreateAddress />
       </main>
     </>
   );
