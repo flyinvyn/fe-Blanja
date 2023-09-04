@@ -30,7 +30,7 @@ const Home = () => {
       <div className="container">
         <Carousel />
         <CategoryCarousel />
-        <h2 className="ml-3 font-weight-bold">New</h2>
+        <h2 className="ml-3 mt-5 font-weight-bold">New</h2>
         <p className="ml-3">You've never seen before!</p>
           <div className="row">
         {loading ? products.map((item, index) => (
