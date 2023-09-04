@@ -80,17 +80,6 @@ Create .env file in your root project folder.
 ```
 REACT_APP_BASEURL = [API_URL]
 ```
-
-    <td>Seller My Product</td>
-    <td>Seller Selling Product</td>
-  </tr>
-  <tr>
-    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/56c589f5-41b6-4a1e-9463-d1eceb5a1de5"  border="0" border="0" alt="3" /> </td>
-  </tr>
-   <tr>
-    <td>Filter</td>
-  </tr>
-</table>
 <!-- CONTRIBUTING -->
 
 ## Contributing
