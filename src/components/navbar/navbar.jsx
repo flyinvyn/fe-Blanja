@@ -9,6 +9,7 @@ import profile from '../../assets/image/noimage.png'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const image = localStorage.getItem('image')
   const navigate = useNavigate()
   const Auth = localStorage.getItem("role");
   console.log(Auth);
@@ -71,7 +72,7 @@ const Navbar = () => {
                 </button>
                 <div className="ml-5 dropdown">
                   <Link to={'#'} role="button" data-toggle="dropdown" aria-expanded="false">
-                    <img className='profile' src={profile} alt="profile" />
+                    <img className='profile' src={image === "null" ? profile : image} alt="profile" />
                   </Link>
 
                   <div className="dropdown-menu">

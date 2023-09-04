@@ -26,10 +26,10 @@ function App() {
       <Route path='checkout' element={<RequireAuth><Checkout /></RequireAuth>} />
       <Route path='product/:id' element={<RequireAuth><DetailProduct /></RequireAuth>} />
       <Route path='profile/seller' element={<RequireAuth><ProfileSeller /></RequireAuth>} />
-      <Route path='product/create' element={<ProductCreate />} />
-      <Route path='product' element={<ProductSeller />} />
+      <Route path='product/create' element={<RequireAuth><ProductCreate /></RequireAuth>} />
+      <Route path='product' element={<RequireAuth><ProductSeller /></RequireAuth>} />
       <Route path='profile/customer' element={<RequireAuth><ProfileCustomer /></RequireAuth>} />
-      <Route path='profile/address' element={<CustomerAddress />} />
+      <Route path='profile/address' element={<RequireAuth><CustomerAddress /></RequireAuth>} />
     </Routes>
     </BrowserRouter>
   );

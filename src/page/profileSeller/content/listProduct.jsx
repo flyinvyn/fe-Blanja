@@ -65,13 +65,13 @@ const ListProduct = () => {
           },
     ]
 
-    const [search,setSearch] = useState(product);
-    const handleFilter = (e) =>{
-        const newData = product.filter(row => {
-            return row.name_product.toLowerCase().includes(e.target.value.toLowerCase())
-        })
-        setSearch(newData);
-    }
+    const [search,setSearch] = useState("");
+    // const handleFilter = (e) =>{
+    //     const newData = product.filter(row => {
+    //         return row.name_product.toLowerCase().includes(e.target.value.toLowerCase())
+    //     })
+    //     setSearch(newData);
+    // }
     return (
         <>
             <div
@@ -108,11 +108,18 @@ const ListProduct = () => {
                                 </div>
                                 {/* <hr /> */}
                                 <div className='text-end'>
-                                    <input type="text" placeholder='Search' style={{borderRadius:"20px",border:"1px silver solid"}} onChange={handleFilter} />
+                                    <input type="text" placeholder='Search' style={{borderRadius:"20px",border:"1px silver solid"}} onChange={(e) => setSearch(e.target.value)} />
                                 </div>
                                 <DataTable
                                     columns={columns}
-                                    data={search}
+                                    data={product.filter((product) => {
+                                        if (search === "") {
+                                            return product
+                                        } else if (product.name_product.toLowerCase().includes(search.toLowerCase())) {
+                                            return product
+                                        }
+                                        return false
+                                    })}
                                     fixedHeader
                                     pagination
                                 ></DataTable>

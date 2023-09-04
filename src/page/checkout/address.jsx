@@ -10,6 +10,7 @@ const Address = () => {
 
     useEffect(() => {
         getAddress();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const getAddress = async () => {

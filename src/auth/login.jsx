@@ -57,6 +57,7 @@ const Login = () => {
                 localStorage.setItem("token", res.data.data.token_user)
                 localStorage.setItem("role", res.data.data.role_seller)
                 localStorage.setItem("id", res.data.data.id_seller)
+                localStorage.setItem("image", res.data.data.photo)
                 navigate('/home')
             })
             .catch((err) => {
@@ -76,6 +77,7 @@ const Login = () => {
                 localStorage.setItem("token", res.data.data.token_user)
                 localStorage.setItem("role", res.data.data.role_user)
                 localStorage.setItem("id", res.data.data.id_user)
+                localStorage.setItem("image", res.data.data.photo)
                 navigate('/home')
             })
             .catch((err) => {
