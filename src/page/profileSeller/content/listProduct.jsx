@@ -122,6 +122,7 @@ const ListProduct = () => {
                                     })}
                                     fixedHeader
                                     pagination
+                                    paginationRowsPerPageOptions={[5, 10, 15, 20]}
                                 ></DataTable>
                             </div>
                         </div>
