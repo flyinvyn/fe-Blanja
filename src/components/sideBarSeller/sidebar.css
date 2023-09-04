@@ -1,0 +1,10 @@
+.sidebar a{
+    font-size: 1rem;
+    color: #9b9b9b;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.sidebar a:hover{
+    color: black;
+}

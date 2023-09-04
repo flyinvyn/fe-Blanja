@@ -1,0 +1,79 @@
+.color-black{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    border: none;
+}
+
+.color-black:hover{
+    border: red 2px solid;
+}
+
+.color-red{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #D84242;
+    border: none;
+}
+
+.color-red:hover{
+    border: red 2px solid;
+}
+.color-blue{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4290D8;
+    border: none;
+}
+
+.color-blue:hover{
+    border: red 2px solid;
+}
+.color-green{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #42D86C;
+    border: none;
+}
+
+.color-green:hover{
+    border: red 2px solid;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button:hover{
+    background-color: silver;
+}
+
+.content{
+    border-color: transparent;
+    border: none;
+    width: 100px;
+    text-align: center;
+}
+
+.left{
+    margin-left: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .input{
+        width: 60px;
+    }
+    .left{
+        margin-left: 50px;
+    }
+}

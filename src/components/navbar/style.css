@@ -1,0 +1,67 @@
+body {
+  overflow-x: hidden;
+}
+.input {
+  width: 600px;
+  border-radius: 25px !important;
+  border: silver 1px solid;
+  height: 35px;
+}
+.rounded-pill {
+  width: 100px;
+}
+.navbar {
+  background: #ffffff;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+.filter {
+  width: 30px;
+  height: 30px;
+  border: silver solid 1px;
+  border-radius: 35%;
+  background-color: #ffffff;
+}
+li svg {
+  border: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  right: 468px;
+  bottom: 23px;
+  font-size: 1.2rem;
+  color: silver;
+}
+button svg{
+    color: silver;
+}
+.hd{
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.hd svg{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.logout{
+  border: none;
+  background-color: #DB3022;
+  border-radius: 5px;
+}
+.logout svg{
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .input{
+    width: 250px;
+  }
+  .item{
+    margin-top: 20px;
+  }
+}

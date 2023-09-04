@@ -1,70 +1,190 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
+  <div align="center">
+    <img height="150" src="https://cdn.discordapp.com/attachments/1118733891738554480/1146038619325349898/logo-removebg-preview.png" alt="blanja" border="0"/>
+  </div>
+  <h3 align="center">Blanja</h3>
+  <p align="center">
+    <a href="https://github.com/flyinvyn/be-Blanja"><strong>Explore the docs »</strong></a>
+    <br />
+    <!-- <a href="https://blanja-fe-khaki.vercel.app/">View Demo</a> -->
+    ·
+    <a href="https://be-blanja-pi.vercel.app/">Api Demo</a>
+  </p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Setup .env](#setup-env)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Related Project](#related-project)
+- [Contact](#contact)
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Blanja is an E-commerce website project that aims to provide an easy and convenient online shopping experience for users in Indonesia. The site offers a wide range of products, including fashion, beauty, electronics, food and beverages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use Blanja's services, users only need to create an account and enter their payment details. After that, users can browse products, add them to their shopping cart, and choose their preferred payment method.
 
-### `npm test`
+With all the features and security provided, Blanja is expected to provide a safe, easy, and convenient online shopping experience for users across Indonesia.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- GETTING STARTED -->
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is an example of how to list things you need to use the software and how to install them.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [NodeJs](https://nodejs.org/en/download/)
+- [Bootstrap](https://getbootstrap.com/)
+- [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clone This Front End Repo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/flyinvyn/fe-Blanja
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Go To Folder Repo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+cd fe-Blanja
+```
 
-## Learn More
+- Install Module
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install / npm i
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- <a href="#setup-env">Setup .env</a>
+- Type ` npm start` To Start Website
 
-### Code Splitting
+### Setup .env
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create .env file in your root project folder.
 
-### Analyzing the Bundle Size
+```
+REACT_APP_BASEURL = [API_URL]
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- ROADMAP -->
 
-### Making a Progressive Web App
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- <table>
+ <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/1a161361-7547-4f8a-8b0d-032c62232278"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/ab83ecf6-343e-42bf-ae12-568206cfa90a" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Register as Customer</td>
+    <td>Register as Seller</td>
+  </tr>
 
-### Advanced Configuration
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/28458d2b-f1f8-493b-9e03-dcaa191c125b"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/80a3e293-4243-468a-9b1f-1d8a1c126770"  border="0" border="0" alt="4" /></td>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  </tr>
+   <tr>
+    <td>Login as Customer</td>
+    <td>Login as Seller</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/53bdb084-f375-4dd5-b001-4327a125cec0"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/0b302575-10f8-4f2a-a45b-c610f80607cb"  border="0" border="0" alt="3" /> </td>
 
-### Deployment
+  </tr>
+   <tr>
+    <td>Home</td>
+    <td>Detail Page</td>
+  </tr>
+    <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/bbc25993-9b7e-4008-bb2b-fab45475fd56"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/560c9538-365d-45de-adbb-a762aeb058c9"  border="0" border="0" alt="4" /></td>
+  </tr>
+   <tr>
+    <td>My Bag</td>
+    <td>Checkout</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/81f546da-4db7-42ac-bae1-a1db4e190df1g"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/c62dc85d-c6b5-43e8-b34b-1c4f35b4128d"  border="0" border="0" alt="4" /></td>
+  </tr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  <tr>
+    <td>Select Payment</td>
+    <td>Select Address</td>
+  </tr>
 
-### `npm run build` fails to minify
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/84808741-c9a7-4907-a8e1-4bb8894e153e"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/a6a84f92-2c2d-40b3-a96f-13397998daab"  border="0" border="0" alt="3" /> </td>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  </tr>
+   <tr>
+    <td>Customer My Account</td>
+    <td>Customer Shipping Address</td>
+  </tr>
+
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/182a65e2-08b6-49b1-a54e-6190d9f8128e"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/a55f3541-c752-48e5-a285-c467bb7526a7"  border="0" border="0" alt="3" /> </td>
+  </tr>
+
+   <tr>
+    <td>Customer My Order</td>
+    <td>Seller Store Profile</td>
+  </tr>
+
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/057a93c8-83a3-4d9f-afd4-8f907c5913ae"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/ee226c92-f855-4ba8-bd10-4e361e9594a2"  border="0" border="0" alt="3" /> </td>
+
+  </tr> -->
+   <!-- <tr> -->
+    <td>Seller My Product</td>
+    <td>Seller Selling Product</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="https://github.com/izaazwaskito/Blanja-FE/assets/116268166/56c589f5-41b6-4a1e-9463-d1eceb5a1de5"  border="0" border="0" alt="3" /> </td>
+  </tr>
+   <tr>
+    <td>Filter</td>
+  </tr>
+</table>
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Related Project
+
+:rocket: [`Backend`](https://github.com/flyinvyn/be-Blanja)
+
+<!-- :rocket: [`Frontend`](https://github.com/izaazwaskito/Blanja-FE) -->
+
+<!-- :rocket: [`Demo`](https://blanja-fe-khaki.vercel.app/) -->
+
+Project Link: [https://github.com/flyinvyn/fe-Blanja](https://github.com/flyinvyn/fe-Blanja)
