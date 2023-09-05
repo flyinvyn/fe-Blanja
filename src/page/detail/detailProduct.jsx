@@ -30,6 +30,13 @@ const DetailProduct = () => {
             setLoading(true)
         }
     }
+    
+    const formatRp = (bilangan) => {
+        var reverse = bilangan.toString().split("").reverse().join(""),
+          ribuan = reverse.match(/\d{1,3}/g);
+        ribuan = ribuan.join(".").split("").reverse().join("");
+        return ribuan;
+      };
 
     return (
         <>
@@ -71,7 +78,7 @@ const DetailProduct = () => {
                                     <div className="price">
                                         <p style={{ margin: "20px 0 -5px 0", color: "#9B9B9B" }}>Price</p>
                                         <h4 className="fw-bold fs-3 mt-2">
-                                            Rp. {item.price_product}
+                                            Rp. {formatRp(item.price_product)}
                                         </h4>
                                     </div>
                                     <div className="d-flex flex-column">

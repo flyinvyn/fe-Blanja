@@ -197,7 +197,7 @@ const ProfileContent = () => {
                                             <div className="col-md-3" style={{ color: "#9B9B9B" }}>
                                                 <button
                                                     type="submit"
-                                                    className="btn btn-danger rounded-pill btn-cm"
+                                                    className="btn btn-danger rounded-pill mb-3"
                                                 >
                                                     Save
                                                 </button>
@@ -242,10 +242,10 @@ const ProfileContent = () => {
                     </div>
                 </div>
             </div>
-            <div
-                className="col-md-1 vhhp"
+            {/* <div
+                className="col-md-1"
                 style={{ backgroundColor: "#F5F5F5" }}
-            ></div>
+            ></div> */}
         </>
     );
 };

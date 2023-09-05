@@ -22,7 +22,7 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Setup .env](#setup-env)
-<!-- - [Screenshots](#screenshots) -->
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Related Project](#related-project)
 - [Contact](#contact)
@@ -31,11 +31,14 @@
 
 ## About The Project
 
-Blanja is an E-commerce website project that aims to provide an easy and convenient online shopping experience for users in Indonesia. The site offers a wide range of products, including fashion, beauty, electronics, food and beverages.
+An e-commerce application is a digital platform that allows users to carry out various trading activities online. Here is a general description of an e-commerce application:
 
-To use Blanja's services, users only need to create an account and enter their payment details. After that, users can browse products, add them to their shopping cart, and choose their preferred payment method.
+App Name: Blanja
 
-With all the features and security provided, Blanja is expected to provide a safe, easy, and convenient online shopping experience for users across Indonesia.
+Description:
+Blanja is an innovative and practical e-commerce application that allows users to explore, buy, and sell various products and services online. With Blanja, you can enjoy a convenient and safe shopping experience from the comfort of your home or anywhere via your mobile device.
+
+Blanja is the best solution for all your shopping needs. Enjoy the convenience of online shopping, find quality products, and sell your items with ease!
 
 <!-- GETTING STARTED -->
 
@@ -80,6 +83,84 @@ Create .env file in your root project folder.
 ```
 REACT_APP_BASEURL = [API_URL]
 ```
+
+## Screenshots
+
+<table>
+ <tr>
+    <td><img width="350px" src="./public/doc/register customer.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/register seller.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Register as Customer</td>
+    <td>Register as Seller</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/login customer.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/login seller.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Login as Customer</td>
+    <td>Login as Seller</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/home.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/detail page.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Home page</td>
+    <td>Detail page</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/order.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/checkout.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Order page</td>
+    <td>Checkout page</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/change address.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/payment.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Select Address</td>
+    <td>Payment</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/profile customer.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/create address.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Profile customer</td>
+    <td>Create address</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/address.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/profile seller.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Shipping address</td>
+    <td>Profile seller</td>
+  </tr>
+
+ <tr>
+    <td><img width="350px" src="./public/doc/my product.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./public/doc/selling product.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Product seller</td>
+    <td>Selling product</td>
+  </tr>
+
+</table>
+
 <!-- CONTRIBUTING -->
 
 ## Contributing

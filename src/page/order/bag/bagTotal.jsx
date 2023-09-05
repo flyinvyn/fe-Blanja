@@ -29,8 +29,10 @@ const getOrder = async () => {
   const calculateTotal = () => {
     let totalOrderCart = 0;
     loading ? order.map((item) => (totalOrderCart += item.total_order)) : <Spinner animation="border" /> ;
+    console.log(totalOrderCart);
     return totalOrderCart;
   };
+
 
   const formatRp = (bilangan) => {
     var reverse = bilangan.toString().split("").reverse().join(""),
